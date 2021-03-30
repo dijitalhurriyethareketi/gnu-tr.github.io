@@ -1,0 +1,117 @@
+html {
+  padding-top: 0;
+  font-family: Verdana, sans-serif;
+  background-color: white;
+}
+body {
+  overflow-x: hidden
+}
+
+/*headeeeeeeeeeeeeer*/
+.header {
+    background-color: #d40000;
+    margin: -10px -10px -10px -10px;
+}
+.logo {
+  width:auto;
+  height:120px;
+}
+
+.headerdiv {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.headerbuttondiv {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.headerbutton {
+    color: white;
+    padding: 0px 10px 0px 10px;
+    font-size: 18px;
+    font-weight: normal;
+    text-decoration: none;
+}
+.headerbutton:hover {
+  color: #d40000;
+  background-color: white;
+}
+
+/*Boooooooooooooooooooooooody*/
+
+a.button {
+    float: left;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 22px;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background: none;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    width: 150px;
+    font-size: 18px;
+    margin: 20px 20px;
+}
+a.button:hover {
+  color: white;
+  background: #d40000;
+  border-color: #d40000;
+  transition: all 0.2s linear;
+}
+@media (max-width: 540px)
+{
+  .svg {
+    width: 100%;
+    height: auto;
+  }
+  .paragraf1, .paragraf2 {
+    width: 90%;
+  }
+  a.button {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.textpart {
+ padding-top: 10px;
+ padding-bottom: 5%;
+ margin-left: 5%;
+ margin-right: 5%;
+}
+
+br {
+   display: block;
+   margin: 10px 0;
+}
+
+/*Fooooooooooooooooooooooooooooter*/
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #d40000;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+   padding-top: 5px;
+   padding-bottom: 5px;
+}
+
